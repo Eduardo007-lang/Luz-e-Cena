@@ -1,0 +1,18 @@
+import React from 'react'
+import Link from '../../Link'
+
+
+
+interface MenuListProps extends React.LiHTMLAttributes<HTMLLIElement> { 
+    href?: string;
+}
+
+const MenuList = ({children, href = '#'}: MenuListProps) => {
+  return (
+    <li>
+        <Link href={href}>{children}</Link>
+    </li>
+  )
+}
+
+export default MenuList

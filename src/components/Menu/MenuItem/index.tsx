@@ -7,7 +7,7 @@ interface MenuListProps extends React.LiHTMLAttributes<HTMLLIElement> {
     href?: string;
 }
 
-const MenuList = ({children, href = '#'}: MenuListProps) => {
+const MenuItem = ({children, href = '#'}: MenuListProps) => {
   return (
     <li>
         <Link href={href}>{children}</Link>
@@ -15,4 +15,4 @@ const MenuList = ({children, href = '#'}: MenuListProps) => {
   )
 }
 
-export default MenuList
+export default MenuItem

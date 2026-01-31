@@ -1,11 +1,10 @@
 import Banner from './components/Banner'
-import Link from './components/Link'
+import Header from './components/Header'
 
 function App() {
-
   return (
     <>
-      <Link href='/' target='_blank'>Link</Link>
+      <Header/>
       <Banner src='./banner_principal/banner.png' alt='banner principal'/>
     </>
   )

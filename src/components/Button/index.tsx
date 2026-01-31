@@ -12,11 +12,11 @@ type ButtonProps = {
 const Button = ({children, variant='default', ...rest}: ButtonProps) => {
     const classMap = {
         default: styles.default,
-        icon: styles.botaoIcone,
+        icon: styles.icon,
     }
 
   return (
-    <button className={classNames(styles.botao, classMap[variant])} {...rest}>{children}</button>
+    <button className={classNames(styles.botao, classMap[variant])} {...rest} >{children}</button>
   )
 }
 

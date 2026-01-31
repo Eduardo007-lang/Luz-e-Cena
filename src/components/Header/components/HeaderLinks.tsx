@@ -1,4 +1,4 @@
-import React from 'react'
+
 import MenuList from '../../Menu/MenuList'
 import MenuItem from '../../Menu/MenuItem'
 

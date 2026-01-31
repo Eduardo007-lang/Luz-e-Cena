@@ -2,7 +2,7 @@ import styles from '../Header.module.css'
 
 const HeaderListItem = ({children}: React.LiHTMLAttributes<HTMLLIElement>) => {
   return (
-    <li className={styles.menuItem}>
+    <li className={styles.menuitem}>
       {children}
     </li>
   )

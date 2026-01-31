@@ -1,4 +1,3 @@
-import React from 'react'
 import { HiOutlineShoppingCart, HiOutlineUser } from 'react-icons/hi'
 import Button from '../../Button'
 
@@ -11,7 +10,6 @@ const HeaderAction = () => {
         <Button variant="icon">
             <HiOutlineUser/>
         </Button>
-      
     </div>
   )
 }
